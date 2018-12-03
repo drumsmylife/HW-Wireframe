@@ -1,0 +1,74 @@
+/* makes all boxes have their text centered*/
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+/* makes everything within the body have the same font style, background color, font size, shifts all boxes to center of page*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #777;
+    margin: 0 auto;
+}
+
+/* Header Box */
+header {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #777;
+    background: #ebebeb;
+}
+
+nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ebebeb
+}
+
+/* moves section,article, h1,h2,h3, and p box to left*/
+.left {
+    float: left;
+    width: 495px;
+    color: #777;
+    background: #ebebeb;
+    margin-bottom: 20px;
+}
+/*displays the h1,h2,h3 and p boxes*/
+.normal {
+    color: #777;
+    background: #ebebeb;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+/* article box*/
+article {
+    background: #777;
+    color: #ebebeb;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* aside box floats right*/
+aside {
+    float: right;
+    background: #ebebeb;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 226px;
+    padding-right: 200px;
+}
+
+/* separates the footer from the two boxes above */
+footer {
+    padding: 25px;
+    clear: both;
+    background: #ebebeb;
+}
